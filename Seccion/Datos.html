@@ -23,11 +23,34 @@
     }
 
     h1 {
-      color: black;
+      color: rgb(24, 166, 19);
       text-align: center;
-      font-family: Arial Rounded MT;
+      font-family: Imprint MT Shadow;
+      font-weight: bold;
+      font-size: 40px;
+    }
+    h2 {
+      color: rgb(137, 14, 231);
+      text-align: left;
+      font-family: Mongolian Baiti;
       font-weight: bold;
       font-size: 30px;
+    }
+
+    h3 {
+      color: rgb(24, 166, 19);
+      text-align: left;
+      font-family: Mongolian Baiti;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    td {
+      font-family: Mongolian Baiti;
+      font-size: 18px;
+    }
+    th {
+      font-family: Mongolian Baiti;
+      font-size: 18px;
     }
   </style>
   <body>
@@ -35,85 +58,91 @@
       <div class="nav navbar-nav">
         <a
           class="nav-item nav-link active"
-          href="index.php"
+          href="Inicio.html"
           aria-current="page"
+          style="font-family: Arial Rounded MT"
+          >Inicio</a
+        >
+        <a
+          class="nav-item nav-link"
+          href="Estudios.html"
           style="font-family: Arial Rounded MT"
           >Estudios</a
         >
         <a
           class="nav-item nav-link"
-          href="fichas.php"
+          href="Empleos.html"
           style="font-family: Arial Rounded MT"
           >Empleos</a
         >
         <a
           class="nav-item nav-link"
-          href="/iniciosesion.html"
+          href="Ref.html"
           style="font-family: Arial Rounded MT"
           >Referencias</a
         >
         <a
           class="nav-item nav-link"
-          href="/iniciosesion.html"
+          href="Datos.html"
           style="font-family: Arial Rounded MT"
           >Datos personales y contacto</a
         >
       </div>
     </nav>
     <div class="container">
-      <br />
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <div style="display: flex; justify-content: space-between">
-            <img
-              src="/images/foto.jpg"
-              alt="Foto perfil"
-              style="
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 200px;
-                height: 260px;
-                border-radius: 50%;
-                border: 5px solid rgb(63, 165, 42);
-              "
-            />
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h1>Mónica Diaz</h1>
-          <tr>
-            Ingeniera mecatrónica
-          </tr>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="table">
-              <table width="100%" bgcolor="oldlace" border="3">
+            <div class="col-1"></div>
+            <div class="col-10">
+              <div class="table">
+                <table
+                  width="100%"
+                  bgcolor="#EACEFD"
+                  style="border: 3px solid rgb(118, 84, 71)"
+                >
+                  <br />
+                  <h1>Información personal</h1>
+                  <tr>
+                    <th>Lugar de nacimiento:</th>
+                    <td>Linares - Nariño</td>
+                    <th>Edad:</th>
+                    <td>23 años</td>
+                  </tr>
+                  <tr>
+                    <th>Ciudad de residencia:</th>
+                    <td>Pasto - Nariño</td>
+                    <th>Lugar de residencia:</th>
+                    <td>Torres de fátima</td>
+                  </tr>
+                </table>
                 <br />
-                <h1>Información vehículo</h1>
-                <tr>
-                  <th>ID de bus:</th>
-                  <td>fgfd</td>
-                  <th>Empresa:</th>
-                  <td>xx</td>
-                  <th>Placa:</th>
-                  <td>xx</td>
-                </tr>
-                <tr>
-                  <th>Nombre conductor:</th>
-                  <td>xxx</td>
-                  <th>Identificación</th>
-                  <td>xxx</td>
-                  <th>Fecha y hora</th>
-                  <td>xxx</td>
-                </tr>
-              </table>
+                <table
+                  width="100%"
+                  bgcolor="#EACEFD"
+                  style="border: 3px solid rgb(118, 84, 71)"
+                >
+                  <br />
+                  <h1>Contacto</h1>
+                  <tr>
+                    <th>E- mail personal:</th>
+                    <td>monikadzriaszcos@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th rowspan="2">Telefono:</th>
+                    <td>3108413097</td>
+                  </tr>
+                  <tr>
+                    <td>3183721122</td>
+                  </tr>
+                  <tr>
+                    <th>E- mail académico:</th>
+                    <td>mondiaz@umariana.edu.co</td>
+                  </tr>
+                </table>
+              </div>
             </div>
+            <div class="col-1"></div>
           </div>
         </div>
       </div>
